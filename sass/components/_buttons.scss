@@ -1,0 +1,13 @@
+button {
+    background-color: $accent-color-500;
+    color: $light-color;
+    padding: 0.5rem 1.5rem;
+    font-family: $text-font;
+    text-transform: uppercase;
+    font-size: $font-size-xs;
+    border: none;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: $accent-color-300;
+    }
+}

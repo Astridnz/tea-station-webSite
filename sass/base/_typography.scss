@@ -1,0 +1,73 @@
+.cursive-green{
+    font-size: smaller;
+    color: $accent-color-500;
+    font-family: $cursive-font;
+    text-transform: capitalize;
+    letter-spacing: normal;
+}
+
+//titre du header
+h1{
+    font-size: $font-size-xl;
+    color: $light-color;
+    text-transform: uppercase;
+}
+
+//titre de section
+h2{
+    font-size: $font-size-l;
+    color: $text-color;
+    text-transform: capitalize;
+    letter-spacing: 0.2em;
+}
+
+//titre carte
+h3{
+    font-size: $font-size-s;
+    color: $text-color;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+
+// contact us form
+h4{
+    font-size: $font-size-m;
+    color: $text-color;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+}
+//titre form info (vert)
+h5{
+    color: $accent-color-500;
+    font-weight: 400;
+    font-size: $font-size-xs;
+    text-transform: capitalize;
+}
+// info form
+h6{
+    color: $text-color;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: $font-size-xs;
+    text-transform: capitalize;
+}
+p{
+    color: $text-color;
+    font-size: $font-size-xs;
+}
+
+.linear-gradient {
+    background: linear-gradient(
+    to right,
+    $accent-color-500,
+    #e7b849,
+    $accent-color-500
+    );
+    padding: 5px;
+}
+
+.bckgrd{
+    background-color: $background-color;
+    padding: 4rem;
+}
