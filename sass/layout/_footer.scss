@@ -1,0 +1,27 @@
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .footer-icones{
+
+        width: 15%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+        img{
+            width: 25px;
+        }
+    }
+    .footer-mentions{
+        padding: 1rem;
+        p{
+            color: $light-color;
+            span{
+                color: $accent-color-500;
+            }
+        }
+    }
+}

@@ -33,9 +33,11 @@ h3{
 // contact us form
 h4{
     font-size: $font-size-m;
-    color: $text-color;
+    color: slategray;
     text-transform: capitalize;
     letter-spacing: 0.1em;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 //titre form info (vert)
 h5{
@@ -67,7 +69,3 @@ p{
     padding: 5px;
 }
 
-.bckgrd{
-    background-color: $background-color;
-    padding: 4rem;
-}

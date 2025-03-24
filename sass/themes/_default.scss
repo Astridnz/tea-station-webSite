@@ -7,7 +7,6 @@ html * {
 body{
     font-size: 100%;
     font-family: $text-font;
-    // margin: 4rem;
 }
 
 img{
@@ -16,12 +15,21 @@ img{
     object-fit: cover;
 }
 
+#products, #contact{
+    background-color: $background-color;
+    padding: 4rem;
+}
+
+#about, #services{
+    background-color: white;
+    margin: 4rem;
+}
+
 
 @media screen and (min-width: 1024px){
     body{
         font-size: 100%;
         font-family: $text-font;
-        // margin: 4rem;
         h1, h2, h3, h4, h5, h6{
             line-height: 1.2em;
         }
@@ -34,7 +42,13 @@ img{
 @media screen and (min-width: 768px) and (max-width:1023px){
     body{
         font-size:85%;
-        // margin: 2rem;
+    }
+    #products, #contact{
+        padding: 3rem;
+    }
+    
+    #about, #services{
+        margin: 3rem;
     }
 }
 
@@ -43,7 +57,12 @@ img{
 @media screen and (max-width: 767px){
     body{
         font-size:60%;
-        // margin: 1rem;
     }
-
+    #products, #contact{
+        padding: 2rem;
+    }
+    
+    #about, #services{
+        margin: 2rem;
+    }
 }
